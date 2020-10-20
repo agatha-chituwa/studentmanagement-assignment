@@ -15,3 +15,13 @@ public class StudentMan{
     for (int i = 0; i < grades.length; i++){
     grades[i] = input.nextDouble();
 }
+
+                  //IMPLEMENT THE CLASS IN THE MAIN METHOD
+ Student student1 = new Student(grades, name);
+ student1.getNumberOfStudents();
+                  //THIS WILL PRINT OUT RESULTS
+ System.out.println(student1.getPrintStudentDetails());
+
+}
+}
+  
